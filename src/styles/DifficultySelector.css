@@ -1,0 +1,61 @@
+/* src/styles/DifficultySelector.css */
+.difficulty-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.difficulty-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f8fafc;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.difficulty-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 20rem;
+}
+
+.difficulty-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 0.75rem;
+    transition: all 0.2s;
+}
+
+.difficulty-button.easy {
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    color: white;
+}
+
+.difficulty-button.medium {
+    background: linear-gradient(135deg, #eab308, #ca8a04);
+    color: white;
+}
+
+.difficulty-button.hard {
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+    color: white;
+}
+
+.difficulty-button:hover {
+    transform: scale(0.98);
+}
+
+.difficulty-score {
+    font-size: 1rem;
+    opacity: 0.9;
+}

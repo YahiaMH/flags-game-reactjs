@@ -1,0 +1,43 @@
+.user-menu {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(8px);
+    border-radius: 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.user-avatar {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.logout-button {
+    padding: 0.5rem 1rem;
+    background: #ef4444;
+    color: white;
+    border-radius: 1.5rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.logout-button:hover {
+    background: #dc2626;
+} 
